@@ -43,9 +43,9 @@ function setup() {
 
 	World.add(world, packageBody);
 	
-	box1 = new Box(boxposition+40,boxY,10,100);
-	box2 = new Box(370,650,100,10);
-	box3 = new Box(375,625,10,100);
+	box1 = new Box(380,645,280,30);
+	box2 = new Box(255,580,30,100);
+	box3 = new Box(505,580,30,100);
 
 	//Create a Ground
 	ground = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true} );
