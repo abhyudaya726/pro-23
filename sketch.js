@@ -29,6 +29,9 @@ function setup() {
 
 	groundSprite=createSprite(width/2, height-35, width,10);
 	groundSprite.shapeColor=color(255)
+	
+	var boxposition = width/2-100;
+	var boxY = 610;
 
 
 	engine = Engine.create();
@@ -40,7 +43,7 @@ function setup() {
 
 	World.add(world, packageBody);
 	
-	box1 = new Box(325,625,10,100);
+	box1 = new Box(boxposition+40,boxY,10,100);
 	box2 = new Box(370,650,100,10);
 	box3 = new Box(375,625,10,100);
 
